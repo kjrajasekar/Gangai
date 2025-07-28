@@ -12,8 +12,8 @@ function Section4bg() {
           <div className='text-center headingcss fontdesign pt-5 pb-4'>
           Our Recent Work</div>
             <div className="sec-4-heading">
-              <div className="section-details">
-             <p className="fontdesign text-center">Utilizing modern drilling techniques & equipment we provide reliable water sources for various needs, including residential, agricultural, and commercial purposes.</p>
+              <div className="section-detail">
+             <p className="whatspp text-center">Utilizing modern drilling techniques & equipment we provide reliable water sources for various needs, including residential, agricultural, and commercial purposes.</p>
               </div>
             </div>
           </Col>

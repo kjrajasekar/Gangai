@@ -2,9 +2,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import drilling from "../image/drilling.svg";
-import drill from "../image/drill.svg";
-import well from "../image/well.svg";
+import drilling from "../image/icon_6in.png";
+import drill from "../image/icon_4in.png";
+import well from "../image/icon_8in.png";
 import "animate.css";
 
 function Outcontent() {
@@ -20,15 +20,15 @@ function Outcontent() {
                 width="110px"
                 height="110px"
                 rounded
-                className="rotate-img mb-4"  // Rotating image
+                className="  mb-4"  // Rotating image
               
               />
-              <div className="pt-4  text-white fw-bolder animate__animated animate__zoomIn">
+              <div className="pt-4  text-white fw-bolder animate__animated animate__zoomIn city">
             4.5 & 5 inch
               </div>
               <Card.Text className="text-white animate__animated animate__fadeInUp">
                 <h5 className="px-4 "> </h5>
-                <p className="px-4 pt-2">
+                <p className="px-4 pt-2 card-text text-light">
                  4.5 and 5 inches are the most common diam0ter for individual homes and small buildings. 
                 </p>
               </Card.Text>
@@ -43,14 +43,14 @@ function Outcontent() {
                 width="110"
                 height="110"
                 rounded
-                className="rotate-img mb-4"
+                className="   mb-4"
               />
-              <div className=" pt-4 text-white fw-bolder animate__animated animate__zoomIn">
+              <div className=" pt-4 text-white fw-bolder animate__animated animate__zoomIn city">
       6.5 inch
               </div>
               <Card.Text className="text-white animate__animated animate__fadeInUp">
                 <h5 className="px-4"> </h5>
-                <p className="px-4 pt-2">
+                <p className="px-4 pt-2 card-text text-light ">
                   6.5 inch are ideal for large apartments or housing complexes where higher output is needed.
                 </p>
               </Card.Text>
@@ -65,15 +65,15 @@ function Outcontent() {
                 width="110"
                 height="110"
                 rounded
-                className="rotate-img mb-4"
+                className="  mb-4"
               />
-              <div className=" pt-4 text-white fw-bolder animate__animated animate__zoomIn">
+              <div className=" pt-4 text-white fw-bolder animate__animated animate__zoomIn city">
                 8 inch
               </div>
               <Card.Text className="text-white animate__animated animate__fadeInUp">
                 <h5 className="px-4"> </h5>
-                <p className="px-4 pt-2">
-                 8inch borewell is typically drilled for higher water yield in domestic, agricultural, and industrial establishments. 
+                <p className="px-4 pt-2 card-text text-light">
+                 8 inch borewell is typically drilled for higher water yield in domestic, agricultural, and industrial establishments. 
                 </p>
               </Card.Text>
             </div>

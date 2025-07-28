@@ -18,7 +18,7 @@ const AccordionItem = ({ title, children }) => {
         <span>{title}</span>
         <span>{isOpen ? "−" : "+"}</span>
       </button>
-      {isOpen && <div className="p-3 border-top" style={{ backgroundColor: "#f9f9f9" }}>{children}</div>} 
+      {isOpen && <div className="p-3 border-top" style={{ backgroundColor: "#f9f9f9" }}>{children}</div>}
       {/* Set a light gray background for the open content */}
     </div>
   );
@@ -26,7 +26,7 @@ const AccordionItem = ({ title, children }) => {
 
 const Accordion = () => {
   return (
-    <div className="fontdesign section4bg p-3">
+    <div className="fontdesign section4bg p-3 faq">
       <Container>
         <p className='headingcss fontdesign text-center p-4 '>Frequently Asked Questions</p>
         <div className="container mt-4">
@@ -37,9 +37,8 @@ const Accordion = () => {
             <p>There is no such prescribed season for drilling a borewell if the location of site has adequate ground water potential. </p>
           </AccordionItem>
           <AccordionItem title="3.	What is the safe distance between a borewell and septic tank/soak pit?">
-            <p>Maintaining sufficient distance between a borewell and septic tank is always recommended as there are chances of contamination. 
-
-</p>
+            <p>Maintaining sufficient distance between a borewell and septic tank is always recommended as there are chances of contamination.
+            </p>
           </AccordionItem>
           <AccordionItem title="4.	Can an existing borewell be deepened to increase the yield?">
             <p>You can consult a geologist and based on his advice and you can deepen existing bore well to a greater depth for adequate quantity of groundwater.</p>

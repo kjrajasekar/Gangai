@@ -2,7 +2,15 @@ import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
+import base5 from "../image/whatsapp.png";
+import a from "../image/a.png";
+import b from "../image/b.png";
+import c from "../image/c.png";
+import d from "../image/d12.png";
+import e from "../image/e.png";
+import f from "../image/f.png";
 // import { FaGlobeAfrica, FaBuilding, FaBell } from "react-icons/fa";
 // import { MdEmail } from "react-icons/md";
 // import { IoPieChartSharp } from "react-icons/io5";
@@ -10,7 +18,7 @@ import Container from "react-bootstrap/Container";
 
 import "animate.css";
 
-const CardComponent = ({ title, iconSize, Icon, color, hoverAnimation,description }) => {
+const CardComponent = ({ title,imgsrc, iconSize, Icon, color, hoverAnimation, description }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -21,16 +29,23 @@ const CardComponent = ({ title, iconSize, Icon, color, hoverAnimation,descriptio
       style={{ transition: "all 0.3s ease-in-out" }}
     >
       <div
-        className={`d-inline-block animate__animated ${
-          isHovered ? hoverAnimation : ""
-        }`}
+        className={`d-inline-block animate__animated ${isHovered ? hoverAnimation : ""
+          }`}
         style={{ transition: "all 0.3s ease-in-out" }}
       >
+         <Image
+          src={imgsrc}
+          width={60}
+          height={60}
+          rounded
+          className="whatsapp-icon "
+        />
       </div>
       <Card.Body>
-        <Card.Title className="fontdesign text-center">{title}</Card.Title>
-        <Card.Text className="fontdesign text-center">
-       {description}
+       
+        <Card.Title className="fontdesign text-center mt-3">{title}</Card.Title>
+        <Card.Text className="ft-design text-center mt-3">
+          {description}
         </Card.Text>
       </Card.Body>
     </Card>
@@ -39,32 +54,35 @@ const CardComponent = ({ title, iconSize, Icon, color, hoverAnimation,descriptio
 
 
 function Loremcontent() {
-const cardData = [
-  {
-    title: "Customised Borewell Drilling",
-    description: "We offer customized borewell drilling in sizes 4.5\", 5\", 6.5\", and 8\" up to 1600 ft deep.",
-  },
-  {
-    title: "Borewell Flushing & Cleaning",
-    description: "We do borewell cleaning & flushing services to remove blockages, contamination, sediment, debris, silts and algae.",
-  },
-  {
-    title: "Borewell Extension & Expansion",
-    description: "We do borewell extension & expansion of 4.5 inch borewell to 6.5 inch for steady water supply during dry season or accommodate a larger pump. ",
-  },
-  {
-    title: "Agri Land Net Bore & Side Bore Services",
-    description: "We provide drilling horizontally from the main borewell into the surrounding water-bearing fissures and ensure a more reliable water supply.",
-  },
-  {
-    title: "Solar Customized Drilling",
-    description: "We serve clients with a specialized process of drilling piles into the ground to support the mounting structures for solar panels.",
-  },
-  {
-    title: "Road Crossing Work",
-    description: "We do horizontal directional drilling in road crossing for water, electrical, telephone and drainage lines without damaging the road.   ",
-  },
-];
+  const cardData = [
+    {
+      imgsrc:a,
+      title: "Customised Borewell Drilling",
+      description: "We offer customized borewell drilling in sizes 4.5\", 5\", 6.5\", and 8\" up to 1600 ft deep borewell drilling where higher output is required.",
+    },
+    {
+      imgsrc:b,
+      title: "Borewell Flushing & Cleaning",
+      description: "We do borewell cleaning & flushing services to remove blockages, contamination, sediment, debris, silts and algae.",
+    },
+    {imgsrc:c,
+      title: "Borewell Extension & Expansion",
+      description: "We do borewell extension & expansion of 4.5 inch borewell to 6.5 inch for steady water supply during dry season or accommodate a larger pump. ",
+    },
+    {imgsrc:d,
+      title: "Agri Land Net Bore & Side Bore ",
+      description: "We provide drilling horizontally from the main borewell into the surrounding water-bearing fissures and ensure a more reliable water supply.",
+    },
+    {imgsrc:e,
+      title: "Solar Customized Drilling",
+      description: "We serve clients with a specialized process of drilling piles into the ground to support the mounting structures for solar panels.",
+    },
+    {
+      imgsrc:f,
+      title: "Road Crossing Work",
+      description: "We do horizontal directional drilling in road crossing for water, electrical, telephone and drainage lines without damaging the road.   ",
+    },
+  ];
   return (
     <div className="lorem text-center">
       <Container>

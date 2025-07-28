@@ -10,45 +10,42 @@ import Whygangai from "./Whygangai";
 
 function Section2bg() {
     return (
-      
-       <div className='section2bg'>
-        <Container>
-            <div className="pgwhite posabs">
-                <Container id="about">
-                    <About />
 
-                </Container>
-                
-            </div>
-            <div className="pgwhite1 margtop" id="project">
-            <Ourheading/>
-            <Ourproject/>
+        <div className='section2bg'>
+            <Container>
+                <div className="pgwhite posabs">
+                    <Container id="about">
+                        <About />
+
+                    </Container>
+
+                </div>
+                <div className="pgwhite1 margtop" id="project">
+                    <Ourheading />
+                    <Ourproject />
                 </div>
                 <div className="pgwhite1" id="service">
-                <Ourservice/>
-            
+                    <Ourservice />
                 </div>
-                
-                
 
-        </Container>
-        
-        <Outcontent/>
-        <Lorem/>
-        
-        <Container>
-        <Loremcontent/>
-        <Container id="about" className="about2">
+            </Container>
+
+            <Outcontent />
+            <Lorem />
+
+            <Container>
+                <Loremcontent />
+                <Container id="about" className="about2">
                     <Whygangai />
 
                 </Container>
-        </Container>
-        
-        
-       </div>
-       
-      
+            </Container>
+
+
+        </div>
+
+
     );
-  }
-  
-  export default Section2bg;
+}
+
+export default Section2bg;

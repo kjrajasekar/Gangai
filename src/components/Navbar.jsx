@@ -14,16 +14,16 @@ const navItems = [
 
 
 function NavHeader() {
-  const [bgColor, setBgColor] = useState("transparent");
+  const [bgColor, setBgColor] = useState('rgb(0, 0, 0,0.3)');
   const [textColor, setTextColor] = useState("white");
   const [sticky, setSticky] = useState(false);
 
   const changeNavStyle = () => {
-    if (window.scrollY > 0) {
+    if (window.scrollY > 150) {
       setBgColor('rgb(0, 0, 0)'); // 40% opacity black
       setSticky(true);
     } else {
-      setBgColor("transparent");
+      setBgColor('rgb(0, 0, 0,0.3)');
       setTextColor("white");
       setSticky(false);
     }

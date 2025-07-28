@@ -3,79 +3,16 @@ import { Container, Row, Col, Button, Card, Image } from 'react-bootstrap';
 
 // Sample data for reviews with an image and rating property
 const allReviews = [
-  { id: 1, name: "John Doe", text: "Excellent service! Highly recommended.", image: "https://th.bing.com/th/id/OIP.SVrM_vmlgId9Kb88j_REawHaGY?pid=ImgDet&w=179&h=154&c=7&dpr=1.3", rating: 5 },
-  { id: 2, name: "Jane Smith", text: "Very satisfied with the product quality.", image: "https://th.bing.com/th/id/OIP.hOdCWbgqzcOv5kTJVcil2gHaE2?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7", rating: 4 },
-  { id: 3, name: "Alice Brown", text: "Fantastic experience, will come back!", image: "https://www.sanatiborewells.com/assets/img/borewell-drilling-services-in-Bangalore.jpg", rating: 5 },
-  { id: 4, name: "Bob White", text: "Great customer service, fast delivery.", image: "https://th.bing.com/th/id/OIP.CFqYU1jJkpbEXTdbjxeb3AHaEK?w=1280&h=720&rs=1&pid=ImgDetMain", rating: 3 },
-  { id: 5, name: "Charlie Green", text: "Good value for money. Worth it!", image: "https://5.imimg.com/data5/SELLER/Default/2020/12/XN/MH/TC/35368416/0-31605400-1490263125-borewell-jpg-500x500.jpg", rating: 4 },
-  { id: 6, name: "David Clark", text: "Impressed with the professionalism.", image: "https://tiimg.tistatic.com/fp/1/003/240/fully-automatic-borewell-drilling-service-128.jpg", rating: 5 },
-  { id: 7, name: "Eva Blue", text: "Nice selection of products and quick shipping.", image: "https://th.bing.com/th/id/OIP.Wyg-RHV2KNnvkFm98oQFNgAAAA?pid=ImgDet&w=179&h=317&c=7&dpr=1.3", rating: 4 },
-  { id: 8, name: "Frank Yellow", text: "The best shopping experience I've had in years.", image: "https://i.ytimg.com/vi/YhdhQ-fbQ1c/maxresdefault.jpg", rating: 5 },
-  { id: 9, name: "Grace Red", text: "Affordable prices and great quality.", image: "https://th.bing.com/th/id/OIP.lP-Li7MNttFKsHKxDTB13gHaJ4?w=960&h=1280&rs=1&pid=ImgDetMain", rating: 4 },
-  { id: 10, name: "Henry Pink", text: "Will definitely recommend to friends.", image: "https://sanidhyaborewells.com/wp-content/uploads/2023/09/sanidhyaborewells-services.jpeg", rating: 5 },
-  { id: 11, name: "Ivy Gray", text: "Reliable and fast service, 5 stars!", image: "https://5.imimg.com/data5/SELLER/Default/2021/1/HQ/WY/NO/100659275/piling-foundation-machine-500x500.jpeg", rating: 3 },
-  { id: 12, name: "Jack Orange", text: "Amazing quality, exceeded my expectations.", image: "https://tiimg.tistatic.com/fp/1/006/486/heavy-tractor-piling-machine-942.jpg", rating: 5 },
-  { id: 1, name: "John Doe", text: "Excellent service! Highly recommended.", image: "https://th.bing.com/th/id/OIP.SVrM_vmlgId9Kb88j_REawHaGY?pid=ImgDet&w=179&h=154&c=7&dpr=1.3", rating: 5 },
-  { id: 2, name: "Jane Smith", text: "Very satisfied with the product quality.", image: "https://th.bing.com/th/id/OIP.hOdCWbgqzcOv5kTJVcil2gHaE2?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7", rating: 4 },
-  { id: 3, name: "Alice Brown", text: "Fantastic experience, will come back!", image: "https://www.sanatiborewells.com/assets/img/borewell-drilling-services-in-Bangalore.jpg", rating: 5 },
-  { id: 4, name: "Bob White", text: "Great customer service, fast delivery.", image: "https://th.bing.com/th/id/OIP.CFqYU1jJkpbEXTdbjxeb3AHaEK?w=1280&h=720&rs=1&pid=ImgDetMain", rating: 3 },
-  { id: 5, name: "Charlie Green", text: "Good value for money. Worth it!", image: "https://5.imimg.com/data5/SELLER/Default/2020/12/XN/MH/TC/35368416/0-31605400-1490263125-borewell-jpg-500x500.jpg", rating: 4 },
-  { id: 6, name: "David Clark", text: "Impressed with the professionalism.", image: "https://tiimg.tistatic.com/fp/1/003/240/fully-automatic-borewell-drilling-service-128.jpg", rating: 5 },
-  { id: 7, name: "Eva Blue", text: "Nice selection of products and quick shipping.", image: "https://th.bing.com/th/id/OIP.Wyg-RHV2KNnvkFm98oQFNgAAAA?pid=ImgDet&w=179&h=317&c=7&dpr=1.3", rating: 4 },
-  { id: 8, name: "Frank Yellow", text: "The best shopping experience I've had in years.", image: "https://i.ytimg.com/vi/YhdhQ-fbQ1c/maxresdefault.jpg", rating: 5 },
-  { id: 9, name: "Grace Red", text: "Affordable prices and great quality.", image: "https://th.bing.com/th/id/OIP.lP-Li7MNttFKsHKxDTB13gHaJ4?w=960&h=1280&rs=1&pid=ImgDetMain", rating: 4 },
-  { id: 10, name: "Henry Pink", text: "Will definitely recommend to friends.", image: "https://sanidhyaborewells.com/wp-content/uploads/2023/09/sanidhyaborewells-services.jpeg", rating: 5 },
-  { id: 11, name: "Ivy Gray", text: "Reliable and fast service, 5 stars!", image: "https://5.imimg.com/data5/SELLER/Default/2021/1/HQ/WY/NO/100659275/piling-foundation-machine-500x500.jpeg", rating: 3 },
-  { id: 12, name: "Jack Orange", text: "Amazing quality, exceeded my expectations.", image: "https://tiimg.tistatic.com/fp/1/006/486/heavy-tractor-piling-machine-942.jpg", rating: 5 },
-  { id: 1, name: "John Doe", text: "Excellent service! Highly recommended.", image: "https://th.bing.com/th/id/OIP.SVrM_vmlgId9Kb88j_REawHaGY?pid=ImgDet&w=179&h=154&c=7&dpr=1.3", rating: 5 },
-  { id: 2, name: "Jane Smith", text: "Very satisfied with the product quality.", image: "https://th.bing.com/th/id/OIP.hOdCWbgqzcOv5kTJVcil2gHaE2?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7", rating: 4 },
-  { id: 3, name: "Alice Brown", text: "Fantastic experience, will come back!", image: "https://www.sanatiborewells.com/assets/img/borewell-drilling-services-in-Bangalore.jpg", rating: 5 },
-  { id: 4, name: "Bob White", text: "Great customer service, fast delivery.", image: "https://th.bing.com/th/id/OIP.CFqYU1jJkpbEXTdbjxeb3AHaEK?w=1280&h=720&rs=1&pid=ImgDetMain", rating: 3 },
-  { id: 5, name: "Charlie Green", text: "Good value for money. Worth it!", image: "https://5.imimg.com/data5/SELLER/Default/2020/12/XN/MH/TC/35368416/0-31605400-1490263125-borewell-jpg-500x500.jpg", rating: 4 },
-  { id: 6, name: "David Clark", text: "Impressed with the professionalism.", image: "https://tiimg.tistatic.com/fp/1/003/240/fully-automatic-borewell-drilling-service-128.jpg", rating: 5 },
-  { id: 7, name: "Eva Blue", text: "Nice selection of products and quick shipping.", image: "https://th.bing.com/th/id/OIP.Wyg-RHV2KNnvkFm98oQFNgAAAA?pid=ImgDet&w=179&h=317&c=7&dpr=1.3", rating: 4 },
-  { id: 8, name: "Frank Yellow", text: "The best shopping experience I've had in years.", image: "https://i.ytimg.com/vi/YhdhQ-fbQ1c/maxresdefault.jpg", rating: 5 },
-  { id: 9, name: "Grace Red", text: "Affordable prices and great quality.", image: "https://th.bing.com/th/id/OIP.lP-Li7MNttFKsHKxDTB13gHaJ4?w=960&h=1280&rs=1&pid=ImgDetMain", rating: 4 },
-  { id: 10, name: "Henry Pink", text: "Will definitely recommend to friends.", image: "https://sanidhyaborewells.com/wp-content/uploads/2023/09/sanidhyaborewells-services.jpeg", rating: 5 },
-  { id: 11, name: "Ivy Gray", text: "Reliable and fast service, 5 stars!", image: "https://5.imimg.com/data5/SELLER/Default/2021/1/HQ/WY/NO/100659275/piling-foundation-machine-500x500.jpeg", rating: 3 },
-  { id: 12, name: "Jack Orange", text: "Amazing quality, exceeded my expectations.", image: "https://tiimg.tistatic.com/fp/1/006/486/heavy-tractor-piling-machine-942.jpg", rating: 5 },
-  { id: 1, name: "John Doe", text: "Excellent service! Highly recommended.", image: "https://th.bing.com/th/id/OIP.SVrM_vmlgId9Kb88j_REawHaGY?pid=ImgDet&w=179&h=154&c=7&dpr=1.3", rating: 5 },
-  { id: 2, name: "Jane Smith", text: "Very satisfied with the product quality.", image: "https://th.bing.com/th/id/OIP.hOdCWbgqzcOv5kTJVcil2gHaE2?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7", rating: 4 },
-  { id: 3, name: "Alice Brown", text: "Fantastic experience, will come back!", image: "https://www.sanatiborewells.com/assets/img/borewell-drilling-services-in-Bangalore.jpg", rating: 5 },
-  { id: 4, name: "Bob White", text: "Great customer service, fast delivery.", image: "https://th.bing.com/th/id/OIP.CFqYU1jJkpbEXTdbjxeb3AHaEK?w=1280&h=720&rs=1&pid=ImgDetMain", rating: 3 },
-  { id: 5, name: "Charlie Green", text: "Good value for money. Worth it!", image: "https://5.imimg.com/data5/SELLER/Default/2020/12/XN/MH/TC/35368416/0-31605400-1490263125-borewell-jpg-500x500.jpg", rating: 4 },
-  { id: 6, name: "David Clark", text: "Impressed with the professionalism.", image: "https://tiimg.tistatic.com/fp/1/003/240/fully-automatic-borewell-drilling-service-128.jpg", rating: 5 },
-  { id: 7, name: "Eva Blue", text: "Nice selection of products and quick shipping.", image: "https://th.bing.com/th/id/OIP.Wyg-RHV2KNnvkFm98oQFNgAAAA?pid=ImgDet&w=179&h=317&c=7&dpr=1.3", rating: 4 },
-  { id: 8, name: "Frank Yellow", text: "The best shopping experience I've had in years.", image: "https://i.ytimg.com/vi/YhdhQ-fbQ1c/maxresdefault.jpg", rating: 5 },
-  { id: 9, name: "Grace Red", text: "Affordable prices and great quality.", image: "https://th.bing.com/th/id/OIP.lP-Li7MNttFKsHKxDTB13gHaJ4?w=960&h=1280&rs=1&pid=ImgDetMain", rating: 4 },
-  { id: 10, name: "Henry Pink", text: "Will definitely recommend to friends.", image: "https://sanidhyaborewells.com/wp-content/uploads/2023/09/sanidhyaborewells-services.jpeg", rating: 5 },
-  { id: 11, name: "Ivy Gray", text: "Reliable and fast service, 5 stars!", image: "https://5.imimg.com/data5/SELLER/Default/2021/1/HQ/WY/NO/100659275/piling-foundation-machine-500x500.jpeg", rating: 3 },
-  { id: 12, name: "Jack Orange", text: "Amazing quality, exceeded my expectations.", image: "https://tiimg.tistatic.com/fp/1/006/486/heavy-tractor-piling-machine-942.jpg", rating: 5 },
-  { id: 1, name: "John Doe", text: "Excellent service! Highly recommended.", image: "https://th.bing.com/th/id/OIP.SVrM_vmlgId9Kb88j_REawHaGY?pid=ImgDet&w=179&h=154&c=7&dpr=1.3", rating: 5 },
-  { id: 2, name: "Jane Smith", text: "Very satisfied with the product quality.", image: "https://th.bing.com/th/id/OIP.hOdCWbgqzcOv5kTJVcil2gHaE2?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7", rating: 4 },
-  { id: 3, name: "Alice Brown", text: "Fantastic experience, will come back!", image: "https://www.sanatiborewells.com/assets/img/borewell-drilling-services-in-Bangalore.jpg", rating: 5 },
-  { id: 4, name: "Bob White", text: "Great customer service, fast delivery.", image: "https://th.bing.com/th/id/OIP.CFqYU1jJkpbEXTdbjxeb3AHaEK?w=1280&h=720&rs=1&pid=ImgDetMain", rating: 3 },
-  { id: 5, name: "Charlie Green", text: "Good value for money. Worth it!", image: "https://5.imimg.com/data5/SELLER/Default/2020/12/XN/MH/TC/35368416/0-31605400-1490263125-borewell-jpg-500x500.jpg", rating: 4 },
-  { id: 6, name: "David Clark", text: "Impressed with the professionalism.", image: "https://tiimg.tistatic.com/fp/1/003/240/fully-automatic-borewell-drilling-service-128.jpg", rating: 5 },
-  { id: 7, name: "Eva Blue", text: "Nice selection of products and quick shipping.", image: "https://th.bing.com/th/id/OIP.Wyg-RHV2KNnvkFm98oQFNgAAAA?pid=ImgDet&w=179&h=317&c=7&dpr=1.3", rating: 4 },
-  { id: 8, name: "Frank Yellow", text: "The best shopping experience I've had in years.", image: "https://i.ytimg.com/vi/YhdhQ-fbQ1c/maxresdefault.jpg", rating: 5 },
-  { id: 9, name: "Grace Red", text: "Affordable prices and great quality.", image: "https://th.bing.com/th/id/OIP.lP-Li7MNttFKsHKxDTB13gHaJ4?w=960&h=1280&rs=1&pid=ImgDetMain", rating: 4 },
-  { id: 10, name: "Henry Pink", text: "Will definitely recommend to friends.", image: "https://sanidhyaborewells.com/wp-content/uploads/2023/09/sanidhyaborewells-services.jpeg", rating: 5 },
-  { id: 11, name: "Ivy Gray", text: "Reliable and fast service, 5 stars!", image: "https://5.imimg.com/data5/SELLER/Default/2021/1/HQ/WY/NO/100659275/piling-foundation-machine-500x500.jpeg", rating: 3 },
-  { id: 12, name: "Jack Orange", text: "Amazing quality, exceeded my expectations.", image: "https://tiimg.tistatic.com/fp/1/006/486/heavy-tractor-piling-machine-942.jpg", rating: 5 },
-  { id: 1, name: "John Doe", text: "Excellent service! Highly recommended.", image: "https://th.bing.com/th/id/OIP.SVrM_vmlgId9Kb88j_REawHaGY?pid=ImgDet&w=179&h=154&c=7&dpr=1.3", rating: 5 },
-  { id: 2, name: "Jane Smith", text: "Very satisfied with the product quality.", image: "https://th.bing.com/th/id/OIP.hOdCWbgqzcOv5kTJVcil2gHaE2?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7", rating: 4 },
-  { id: 3, name: "Alice Brown", text: "Fantastic experience, will come back!", image: "https://www.sanatiborewells.com/assets/img/borewell-drilling-services-in-Bangalore.jpg", rating: 5 },
-  { id: 4, name: "Bob White", text: "Great customer service, fast delivery.", image: "https://th.bing.com/th/id/OIP.CFqYU1jJkpbEXTdbjxeb3AHaEK?w=1280&h=720&rs=1&pid=ImgDetMain", rating: 3 },
-  { id: 5, name: "Charlie Green", text: "Good value for money. Worth it!", image: "https://5.imimg.com/data5/SELLER/Default/2020/12/XN/MH/TC/35368416/0-31605400-1490263125-borewell-jpg-500x500.jpg", rating: 4 },
-  { id: 6, name: "David Clark", text: "Impressed with the professionalism.", image: "https://tiimg.tistatic.com/fp/1/003/240/fully-automatic-borewell-drilling-service-128.jpg", rating: 5 },
-  { id: 7, name: "Eva Blue", text: "Nice selection of products and quick shipping.", image: "https://th.bing.com/th/id/OIP.Wyg-RHV2KNnvkFm98oQFNgAAAA?pid=ImgDet&w=179&h=317&c=7&dpr=1.3", rating: 4 },
-  { id: 8, name: "Frank Yellow", text: "The best shopping experience I've had in years.", image: "https://i.ytimg.com/vi/YhdhQ-fbQ1c/maxresdefault.jpg", rating: 5 },
-  { id: 9, name: "Grace Red", text: "Affordable prices and great quality.", image: "https://th.bing.com/th/id/OIP.lP-Li7MNttFKsHKxDTB13gHaJ4?w=960&h=1280&rs=1&pid=ImgDetMain", rating: 4 },
-  { id: 10, name: "Henry Pink", text: "Will definitely recommend to friends.", image: "https://sanidhyaborewells.com/wp-content/uploads/2023/09/sanidhyaborewells-services.jpeg", rating: 5 },
-  { id: 11, name: "Ivy Gray", text: "Reliable and fast service, 5 stars!", image: "https://5.imimg.com/data5/SELLER/Default/2021/1/HQ/WY/NO/100659275/piling-foundation-machine-500x500.jpeg", rating: 3 },
-  { id: 12, name: "Jack Orange", text: "Amazing quality, exceeded my expectations.", image: "https://tiimg.tistatic.com/fp/1/006/486/heavy-tractor-piling-machine-942.jpg", rating: 5 },
-  // Add more reviews as needed
+  { id: 1, name: "Arun", text: "Gangai Borewell offered the most reasonable quote among many..", image: "https://th.bing.com/th/id/OIP.SVrM_vmlgId9Kb88j_REawHaGY?pid=ImgDet&w=179&h=154&c=7&dpr=1.3", rating: 5 },
+  { id: 2, name: "Praavin", text: "Very satisfied with the  quality of work & Time. Impressed with the professionalism.", image: "https://th.bing.com/th/id/OIP.hOdCWbgqzcOv5kTJVcil2gHaE2?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7", rating: 4 },
+  { id: 3, name: "Ranjith", text: "The team was punctual, professional, and completed the work efficiently.", image: "https://www.sanatiborewells.com/assets/img/borewell-drilling-services-in-Bangalore.jpg", rating: 5 },
+  { id: 4, name: "Anand", text: "Kudos to the entire crew—keep up the great work!  Highly recommended.", image: "https://th.bing.com/th/id/OIP.CFqYU1jJkpbEXTdbjxeb3AHaEK?w=1280&h=720&rs=1&pid=ImgDetMain", rating: 3 },
+  { id: 5, name: "Rajesh", text: "Good value for money. They redrilled  , removed the  casing, and installed  pipes.", image: "https://5.imimg.com/data5/SELLER/Default/2020/12/XN/MH/TC/35368416/0-31605400-1490263125-borewell-jpg-500x500.jpg", rating: 4 },
+  { id: 6, name: "Manickam", text: "I'm abroad & I called them for a borewell in my house, They resolved it effectively.", image: "https://tiimg.tistatic.com/fp/1/003/240/fully-automatic-borewell-drilling-service-128.jpg", rating: 5 },
+  { id: 7, name: "Hariharan", text: "Great service,Professional team, Friendly owner. Good history. Best borewell in Gobichettipalayam.", image: "https://th.bing.com/th/id/OIP.Wyg-RHV2KNnvkFm98oQFNgAAAA?pid=ImgDet&w=179&h=317&c=7&dpr=1.3", rating: 4 },
+  { id: 8, name: "Velu", text: "I have issue with my existing borewell, Gangai Borewells resolved the problem effectively", image: "https://i.ytimg.com/vi/YhdhQ-fbQ1c/maxresdefault.jpg", rating: 5 },
+  { id: 10, name: "Sivakumar", text: " My farm is in Siruvalur and Nambiyur. Excellent diviner and water source locating. Great borewell service", image: "https://sanidhyaborewells.com/wp-content/uploads/2023/09/sanidhyaborewells-services.jpeg", rating: 5 },
+ // Add more reviews as needed
 ];
 
 const StarRating = ({ rating }) => {
@@ -110,16 +47,23 @@ const Review = () => {
             {allReviews.slice(0, reviewsToShow).map((review) => (
               <Col md={4} key={review.id} className="mb-4">
                 <Card className='border-0'>
-                  <Card.Body className="text-center"> {/* Center content of Card */}
+                  <Card.Body className=" "> {/* Center content of Card */}
                     {/* Display the reviewer's image */}
-                    <div className="mb-3">
-                      <Image src={review.image} rounded width={150} height={150} />
-                    </div>
-                    <Card.Title>{review.name}</Card.Title>
-                    <Card.Text>{review.text}</Card.Text>
+                    <Row>
+                      <Col sm={12} xl={4} >  <div className="mb-3">
+                        <Image src={review.image} className='rounded-circle' width={120} height={120} />
+                      </div>
+                      </Col>
+                      <Col sm={12} xl={8}>  <Card.Title>{review.name}</Card.Title>
+                        <Card.Text>{review.text}</Card.Text>
+                        {/* Display the rating stars */}
+                        <StarRating rating={review.rating} />
+                      </Col>
+                    </Row>
 
-                    {/* Display the rating stars */}
-                    <StarRating rating={review.rating} />
+
+
+
                   </Card.Body>
                 </Card>
               </Col>

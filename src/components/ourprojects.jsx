@@ -2,21 +2,23 @@ import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import base1 from '../image/base1.png';
+import erode from '../image/erode.png';
+import coimbatore from '../image/coimbatore.png';
+import tirupur from '../image/tirupur.png';
 
 function OurProject() {
   const [hoverIndex, setHoverIndex] = useState(null);
 
   const projects = [
-    { title: 'Erode', imgSrc: base1, description: 'As the most renowned borewell drilling contractor in Erode, we provide reliable and efficient services, drilling with precision to meet client requirements—all at budget-friendly prices.' },
-    { title: 'Tirupur ', imgSrc: base1, description: 'We are one of the best borewell drilling contractors providing quality services in Tirupur. Our proven expertise and commitment to excellence has enabled us built on trust and reliability.' },
-    { title: 'coimbatore', imgSrc: base1, description: 'Being referred to as No 1 borewell drilling contractor in Coimbatore region, we do provide the best service to the customers. Our focus is to carry out the work efficiently and complete it on time.' }
+    { title: 'Erode', imgSrc: erode, description: 'As the most renowned borewell drilling contractor in Erode, we provide reliable and efficient services, drilling with precision to meet client requirements — also its all at budget-friendly prices.' },
+    { title: 'Tirupur ', imgSrc: tirupur, description: 'We are one of the best borewell drilling contractors providing quality services in Tirupur. Our proven expertise and commitment to excellence has enabled us built on trust and reliability.' },
+    { title: 'Coimbatore', imgSrc: coimbatore, description: 'Being referred to as No 1 borewell drilling contractor in Coimbatore region, we do provide the best service to the customers. Our focus is to carry out the work efficiently and complete it on time.' }
   ];
 
   return (
     <Row className="row-gap-3 px-md-5">
       {projects.map((project, index) => (
-        <Col key={index} md={4}>
+        <Col key={index} md={4} >
           <Card 
             className={`border-0 ${hoverIndex === index ? 'shadow-lg' : 'shadow-sm'} transition`}
             onMouseEnter={() => setHoverIndex(index)}

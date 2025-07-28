@@ -21,7 +21,7 @@ function App() {
     
     <Review/>
   <Accordion/>
-  <Section5bg/>
+  {/* <Section5bg/> */}
   
     <Footer/>
     </div>

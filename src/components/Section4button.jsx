@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Container, Tab, Tabs, Modal} from 'react-bootstrap';
+import { Container, Tab, Tabs, Modal } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'animate.css';
-import base2 from '../image/base2.jpg';
+import base2 from '../image/drill_project.jpg';
 
 function Button4() {
   const [show, setShow] = useState(false);
@@ -46,32 +46,32 @@ function Button4() {
           justify
         >
           <Tab eventKey="home" title="Erode"> <Container>{renderImages()}
-          <div className=" tabbutton"><Container>
-      {/* <Row>
+            <div className=" tabbutton "><Container>
+              {/* <Row>
         <Col>
         <Button variant="success" className='readmore fontdesign'>Load More</Button>
         </Col>
       </Row> */}
-    </Container></div>
-            </Container> </Tab>
+            </Container></div>
+          </Container> </Tab>
           <Tab eventKey="profile" title="Tirupur"> <Container>{renderImages()}
-          <div className=" tabbutton"><Container>
-      {/* <Row>
+            <div className=" tabbutton"><Container>
+              {/* <Row>
         <Col>
         <Button variant="success" className='readmore fontdesign'>Load More</Button>
         </Col>
       </Row> */}
-    </Container></div></Container> 
+            </Container></div></Container>
           </Tab>
           <Tab eventKey="longer" title="coimbatore"> <Container>{renderImages()}
-          <div className=" tabbutton"><Container>
-      {/* <Row>
+            <div className="tabbutton"><Container>
+              {/* <Row>
         <Col>
         <Button variant="success" className='readmore fontdesign'>Load More</Button>
         </Col>
       </Row> */}
-    </Container></div></Container> </Tab>
-          
+            </Container></div></Container> </Tab>
+
 
         </Tabs>
       </Container>
@@ -87,7 +87,7 @@ function Button4() {
         <Modal.Body className="text-center">
           {selectedImage && <img src={selectedImage} className="w-100" alt="Full Screen" />}
         </Modal.Body>
-       
+
       </Modal>
     </div>
   );

@@ -11,25 +11,25 @@ const Footer = () => {
         <Container>
           <Row className="text-md-left text-center">
             {/* Quick Links (Left-Aligned) */}
-            <Col md={3} className="text-md-start">
-             <h5 className="animate__animated animate__fadeInLeft">
-              
-               <img src={group} alt="logo" title="logo" width="40" height="40" /> GANGAI BOREWELLS
+            <Col md={4} className="text-start">
+              <h5 className="animate__animated animate__fadeInLeft">
+
+                <img src={group} alt="logo" title="logo" width="40" height="40" /> GANGAI BOREWELLS
               </h5>
-               <ul className="list-unstyled text-white">
-               <li>
+              <ul className="list-unstyled text-white">
+                <li>
                   <a
                     href="#home"
                     className="text-white text-decoration-none animate__animated animate__pulse animate__delay-1s"
                   >Gangai Borewell Contractors, located in Gobichettipalayam, is a leading borewell drilling company in the Kongu region, delivering professional services since the 1980s. With over 40 years of expertise, we specialize in handling complex borewell drilling projects with precision.
                   </a>
                 </li>
-                </ul>
+              </ul>
             </Col>
-            
+
 
             {/* Support (Left-Aligned) */}
-            <Col md={3}  className="text-md-start px-5">
+            <Col md={2} className="text-start px-lg-5 mt-3 mt-md-0">
               <h5 className="animate__animated animate__fadeInLeft">
                 Quick Links
               </h5>
@@ -44,7 +44,15 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#home"
+                    href="#about"
+                    className="text-white text-decoration-none animate__animated animate__pulse animate__delay-3s"
+                  >
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#service"
                     className="text-white text-decoration-none animate__animated animate__pulse animate__delay-2s"
                   >
                     Services
@@ -52,31 +60,31 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#home"
+                    href="#project"
                     className="text-white text-decoration-none animate__animated animate__pulse animate__delay-3s"
                   >
-                    About Us
+                    Project
                   </a>
                 </li>
               </ul>
             </Col>
 
             {/* Address Section */}
-            <Col md={3} className="text-start pb-2 text-white">
-  <h5>Address</h5>
-  Gangai Borewells <br />
-  Near Jaganatha Mess, <br />
-  Kullampalayam, <br />
-  Gobichettipalayam, Tamil Nadu. 638476. <br /><br />
-  9842867128 <br />
-  <a href="gangaihighpowerborewells@gmail.com" className="text-white text-decoration-underline">
-    gangaihighpowerborewells@gmail.com
-  </a>
-</Col>
+            <Col md={3} className="text-start pb-2 text-white mt-3 mt-md-0">
+              <h5>Address</h5>
+              Gangai Borewells <br />
+              Near Jaganatha Mess, <br />
+              Kullampalayam, <br />
+              Gobichettipalayam, Tamil Nadu. 638476. <br /><br />
+              9842867128 <br />
+              <a href="gangaihighpowerborewells@gmail.com" className="text-white text-decoration-underline">
+                gangaihighpowerborewells@gmail.com
+              </a>
+            </Col>
 
 
             {/* Location Section with Responsive iframe */}
-            <Col md={3} className="text-center">
+            <Col md={3} className="text-start text-lg-center mt-3 mt-md-0">
               <h5> Location</h5>
               <div className="ratio ratio-16x9">
                 <iframe
@@ -95,14 +103,14 @@ const Footer = () => {
       {/* Footer Bottom Links */}
       <Container>
         <Row className="my-3 d-flex  align-items-center">
-          <Col className="fontdesign fw-bold">
+          <Col xs={12} lg={6} className="fontdesign fw-bold">
             <p className="mb-1 ">
               &copy; {new Date().getFullYear()} Gangai Borewell. All Rights Reserved.
             </p>
           </Col>
-          <Col className="text-end fontdesign">
+          <Col xs={12} lg={6} className="text-lg-end text-center fontdesign">
             <p className="mb-0">
-              Developed by <a href="https://www.qonotech.com" target="_blank" rel="noopener noreferrer" className="text-dark fw-bold text-decoration-none">@Qono</a>
+              Developed by <a href="https://www.qonotech.com" target="_blank" rel="noopener noreferrer" className="text-dark fw-bold text-decoration-none">@Qono Technologies</a>
             </p>
           </Col>
         </Row>
