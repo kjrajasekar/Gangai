@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
-import base5 from "../image/whatsapp.png";
+
 import a from "../image/a.png";
 import b from "../image/b.png";
 import c from "../image/c.png";
