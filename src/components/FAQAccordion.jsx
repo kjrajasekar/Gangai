@@ -28,7 +28,7 @@ const Accordion = () => {
   return (
     <div className="fontdesign section4bg p-3 faq">
       <Container>
-        <p className='headingcss fontdesign text-center p-4 '>Frequently Asked Questions</p>
+        <p className='headingcss fontdesign text-center p-4 ' >Frequently Asked Questions</p>
         <div className="container mt-4">
           <AccordionItem title="1.	How long does it take to complete the drilling process?">
             <p>The duration depends on the required depth and geological conditions.</p>

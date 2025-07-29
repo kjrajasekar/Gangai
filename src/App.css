@@ -400,13 +400,16 @@ border: none;
   }
 }
 
+.faq .fontdesign{
+  font-size: 25px;
+}
 .faq span{
   font-size: 22px;
   font-weight: bolder;
   text-align: left;
 }
 .faq p{
-  font-size: 16px;
+  font-size: 18px;
   font-weight: lighter;
   color: rgb(73, 72, 72);
 }
@@ -490,6 +493,17 @@ ul.list-unstyled li a:hover {
   .ft-m{
     font-size: 28px;
   }
+
+  .faq span{
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: left;
+}
+.faq p{
+  font-size: 16px;
+  font-weight: lighter;
+  color: rgb(73, 72, 72);
+}
 }
 @media only screen and (width: 992px) {
  .posabs{
