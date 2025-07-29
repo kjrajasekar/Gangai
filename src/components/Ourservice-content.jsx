@@ -13,7 +13,7 @@ function Outcontent() {
       <div className="fontdesign ">
         <Row className="g-0">
           <Col  md={4} >
-            <div className="out1 pt-5  text-center animate__animated animate__fadeInLeft pb-md-3">
+            <div className="out1 pt-5  text-center animate__animated animate__fadeInLeft pb-mb-3">
               <Card.Img
                 variant="left"
                 src={drill}
