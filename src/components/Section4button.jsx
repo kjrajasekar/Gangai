@@ -63,7 +63,7 @@ function Button4() {
       </Row> */}
             </Container></div></Container>
           </Tab>
-          <Tab eventKey="longer" title="coimbatore"> <Container>{renderImages()}
+          <Tab eventKey="longer" title="Coimbatore"> <Container>{renderImages()}
             <div className="tabbutton"><Container>
               {/* <Row>
         <Col>

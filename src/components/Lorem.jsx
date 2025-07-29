@@ -41,7 +41,7 @@ function Lorem() {
                       />
                     </div>
                     <div className="col-11 py-2">
-                      <h2 className=" text-start headingcss fontdesign d-inline py-5">    +91 98428 67128</h2>
+                      <h2 className=" text-start headingcss fontdesign d-inline py-5 ft-m">    +91 98428 67128</h2>
                     </div>
                   </div>
                 </a>

@@ -425,6 +425,11 @@ ul.list-unstyled li a:hover {
     text-align: center;
     margin: 10px;
   }
+
+
+  .ft-m{
+    font-size: 28px;
+  }
 }
 @media only screen and (width: 992px) {
  .posabs{
