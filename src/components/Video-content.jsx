@@ -38,7 +38,7 @@ function Video() {
               { title: "Facebook", img: eve, url: "https://www.facebook.com" },
               { title: "Youtube", img: Op, url: "https://www.youtube.com" },
             ].map((item, index) => (
-              <Col xs={12} sm={6} key={index} className="mb-4">
+              <Col xs={12} lg={6} key={index} className="mb-4">
                 <Card className="border-0 animate__animated animate__zoomIn h-100 p-3 card-hover">
                   <div className="d-sm-flex d-md-block align-items-center">
                     {/* Image */}
@@ -60,7 +60,7 @@ function Video() {
                     </Card.Text>
                     <Button
                       className="readmorebtn border-0 mx-auto mx-md-0 d-block mt-2 animate__animated animate__pulse animate__infinite"
-                      onClick={() => handleRedirect(item.url)}
+                      onClick={() => handleRedirect()}
                     >
                       Read more
                     </Button>
@@ -74,7 +74,7 @@ function Video() {
         {/* Right Content */}
         <Col
           xs={12}
-          md={6}
+          lg={6}
           className="animate__animated animate__fadeInRight"
           style={{ height: "55vh" }}
         >

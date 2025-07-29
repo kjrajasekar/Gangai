@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="App">
     <Section1bg/>
-    <div>
+  
     <Section2bg/>
     <Section3bg/>
     
-    </div>
+   
     <Section4bg/>
     
     <Review/>

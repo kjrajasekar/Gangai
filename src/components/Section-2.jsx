@@ -11,7 +11,7 @@ import Whygangai from "./Whygangai";
 function Section2bg() {
     return (
 
-        <div className='section2bg'>
+        <div className='section2bg  '>
             <Container>
                 <div className="pgwhite posabs">
                     <Container id="about">

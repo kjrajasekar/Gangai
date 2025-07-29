@@ -9,10 +9,10 @@ function Section1bg() {
     
      <div className='section1bg ' id="home">
      <Image src={base2} width="100%" height="100%"   className='image-animation'/>
-      <Container>
+      
       <NavHeader/>
 
-      </Container>
+       
      </div>
     
   );

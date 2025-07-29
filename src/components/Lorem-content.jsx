@@ -88,7 +88,7 @@ function Loremcontent() {
       <Container>
         <Row>
           {cardData.map((card, index) => (
-            <Col key={index} xs={12} sm={6} md={6} lg={4} >
+            <Col key={index} xs={12}   md={6} lg={4} >
               <CardComponent {...card} />
             </Col>
           ))}
