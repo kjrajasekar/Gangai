@@ -4,7 +4,7 @@ import { Container, Row, Col, Button, Card, Image } from 'react-bootstrap';
 // Sample data for reviews with an image and rating property
 const allReviews = [
   { id: 1, name: "Arun", text: "Gangai Borewell offered the most reasonable quote among many..", image: "https://th.bing.com/th/id/OIP.SVrM_vmlgId9Kb88j_REawHaGY?pid=ImgDet&w=179&h=154&c=7&dpr=1.3", rating: 5 },
-  { id: 2, name: "Praavin", text: "Very satisfied with the  quality of work & Time. Impressed with the professionalism.", image: "https://th.bing.com/th/id/OIP.hOdCWbgqzcOv5kTJVcil2gHaE2?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7", rating: 4 },
+  { id: 2, name: "Pravin", text: "Very satisfied with the  quality of work & Time. Impressed with the professionalism.", image: "https://th.bing.com/th/id/OIP.hOdCWbgqzcOv5kTJVcil2gHaE2?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7", rating: 4 },
   { id: 3, name: "Ranjith", text: "The team was punctual, professional, and completed the work efficiently.", image: "https://www.sanatiborewells.com/assets/img/borewell-drilling-services-in-Bangalore.jpg", rating: 5 },
   { id: 4, name: "Anand", text: "Kudos to the entire crew—keep up the great work!  Highly recommended.", image: "https://th.bing.com/th/id/OIP.CFqYU1jJkpbEXTdbjxeb3AHaEK?w=1280&h=720&rs=1&pid=ImgDetMain", rating: 3 },
   { id: 5, name: "Rajesh", text: "Good value for money. They redrilled  , removed the  casing, and installed  pipes.", image: "https://5.imimg.com/data5/SELLER/Default/2020/12/XN/MH/TC/35368416/0-31605400-1490263125-borewell-jpg-500x500.jpg", rating: 4 },
