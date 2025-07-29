@@ -465,6 +465,9 @@ ul.list-unstyled li a:hover {
   .margtop{
     margin-top: 650px;
   }
+  .fontdesign ul li{
+    font-size: 15px;
+  }
 }
 @media (max-width: 1200px) {
   .posabs{
@@ -615,6 +618,7 @@ ul.list-unstyled li a:hover {
   font-size: 17px;
   color: #555555;
 }
+
 
 button {
   margin-top: 20px;

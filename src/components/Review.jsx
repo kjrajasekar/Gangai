@@ -38,7 +38,7 @@ const Review = () => {
   };
 
   return (
-    <div className="p-3">
+    <div className="p-3 myreview">
       <Container>
         <h2 className="text-center my-4 fontdesign headingcss p-3">Customer Reviews</h2>
         <div className="fontdesign">
@@ -60,8 +60,6 @@ const Review = () => {
                         <StarRating rating={review.rating} />
                       </Col>
                     </Row>
-
-
 
 
                   </Card.Body>
