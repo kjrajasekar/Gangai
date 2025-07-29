@@ -1,4 +1,4 @@
-import Container from 'react-bootstrap/Container';
+
 import NavHeader from './Navbar';
 import Image from 'react-bootstrap/Image';
 import base2 from '../image/banner.png'

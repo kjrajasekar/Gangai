@@ -10,9 +10,9 @@ import eve from "../image/eve.svg";
 import video2 from "../image/video.mp4";
 
 function Video() {
-  const handleRedirect = (url) => {
-    window.open(url, "_blank");
-  };
+  // const handleRedirect = (url) => {
+  //   window.open(url, "_blank");
+  // };
 
   return (
     <Container className="video py-5 px-5">
@@ -67,7 +67,7 @@ function Video() {
                   </Card.Body>
                 </Card>
               </Col>
-            ))}
+            ))} 
           </Row>
         </Col>
 

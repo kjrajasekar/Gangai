@@ -77,7 +77,7 @@ const Footer = () => {
               Kullampalayam, <br />
               Gobichettipalayam, Tamil Nadu. 638476. <br /><br />
               9842867128 <br />
-              <a href="" className="text-white text-decoration-underline">
+              <a href="#" className="text-white text-decoration-underline">
                 gangaihighpowerborewells@gmail.com
               </a>
             </Col>
@@ -110,7 +110,7 @@ const Footer = () => {
           </Col>
           <Col xs={12} lg={6} className="text-lg-end text-center fontdesign">
             <p className="mb-0">
-              Developed by <a href="https://www.qonotech.com" target="_blank" rel="noopener noreferrer" className="text-dark fw-bold text-decoration-none">@Qono Technologies</a>
+              Powered by <a href="https://www.qonotech.com" target="_blank" rel="noopener noreferrer" className="text-dark fw-bold text-decoration-none">@Qono Technologies</a>
                </p>
           </Col>
         </Row>
