@@ -467,6 +467,8 @@ ul.list-unstyled li a:hover {
   }
 }
 @media (max-width: 993px) {
+  .section-details{
+ border : none}
   .posabs{
     width: calc(720px - 1.5rem);
   }
@@ -548,8 +550,10 @@ ul.list-unstyled li a:hover {
   }
   .aboutheaddesign1{
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
+    line-height: 35px;
   }
+
   .fontdesign{
     text-align: center;
   }
