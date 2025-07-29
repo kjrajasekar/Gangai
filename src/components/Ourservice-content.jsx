@@ -29,7 +29,7 @@ function Outcontent() {
               <Card.Text className="text-white animate__animated animate__fadeInUp">
                 <h5 className="px-4 "> </h5>
                 <p className="px-4 pt-2 card-text text-light">
-                 4.5 and 5 inches are the most common diam0ter for individual homes and small buildings. 
+                 4.5 and 5 inches are the most common diameter for individual homes and small buildings. 
                 </p>
               </Card.Text>
             </div>

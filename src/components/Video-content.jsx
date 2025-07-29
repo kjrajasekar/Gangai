@@ -83,6 +83,7 @@ function Video() {
             title="YouTube video"
             allowFullScreen
             className="w-100 h-100"
+            controls
           ></iframe>
         </Col>
       </Row>

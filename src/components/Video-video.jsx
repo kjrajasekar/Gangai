@@ -9,6 +9,7 @@ function Videoyou() {
         src= {video2}
         title="YouTube video" 
         allowFullScreen 
+      
         style={{ width: "100%", height: "100%", borderRadius: "50%", border: "none" }} // Make iframe fully fill the container
       ></iframe>
     </div>
