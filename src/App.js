@@ -30,7 +30,7 @@ function App() {
   }
 
   return (
-    <div className='counter-contain' style={{ background: "hsl(153.4deg 38.34% 50.39%)" }}>
+    <div className='counter-contain' style={{ background: "hsl(153.4deg 38.34% 50.39%)", marginTop:'100px' }}>
       <div className='spinner-ring'></div> {/* rotating ring */}
       <div className='counter' style={{ textAlign: 'center', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
         <h1 style={{ fontSize: '100px', color: 'white' }}>{countdown}</h1>
