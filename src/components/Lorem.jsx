@@ -31,7 +31,7 @@ function Lorem() {
                   rel="noopener noreferrer"
                 >
                   <div className="row  ">
-                    <div className=" col-3 col-lg-2  px-lg-4 text-end">
+                    <div className=" col-3 col-md-4 col-lg-2  px-lg-4 text-end">
                       <Image
                         src={base5}
                         width={45}
@@ -40,7 +40,7 @@ function Lorem() {
                         className="whatsapp-icon  "
                       />
                     </div>
-                    <div className="col-9 col-lg-10 text-start text-lg-center py-2">
+                    <div className="col-9 col-md-8 col-lg-10 text-start text-lg-center py-2">
                       <h2 className=" text-start headingcss fontdesign d-inline py-5 ft-m">    +91 98428 67128</h2>
                     </div>
                   </div>

@@ -5,6 +5,11 @@
   padding: 0;
    font-family: "Inter", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Set this to your sticky nav height */
+}
 .section1bg{
   position: relative;
   width: 100%;

@@ -29,7 +29,7 @@ const Footer = () => {
 
 
             {/* Support (Left-Aligned) */}
-            <Col md={2} className="text-start px-lg-5 mt-3 mt-md-0">
+            <Col md={2} className="text-start px-lg-3 mt-3 mt-md-0">
               <h5 className="animate__animated animate__fadeInLeft">
                 Quick Links
               </h5>
@@ -102,13 +102,13 @@ const Footer = () => {
 
       {/* Footer Bottom Links */}
       <Container>
-        <Row className="my-3 d-flex  align-items-center">
-          <Col xs={12} lg={6} className="fontdesign fw-bold">
+        <Row className="my-3 d-flex  align-items-center ">
+          <Col xs={12} md={7} className="fontdesign fw-bold">
             <p className="mb-1 ">
               &copy; {new Date().getFullYear()} Gangai Borewell. All Rights Reserved.
             </p>
           </Col>
-          <Col xs={12} lg={6} className="text-lg-end text-center fontdesign">
+          <Col xs={12} md={5} className="text-lg-end text-center fontdesign">
             <p className="mb-0">
               Powered by <a href="https://www.qonotech.com" target="_blank" rel="noopener noreferrer" className="text-dark fw-bold text-decoration-none">@Qono Technologies</a>
                </p>
