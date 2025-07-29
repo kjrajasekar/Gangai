@@ -111,7 +111,7 @@ const Footer = () => {
           <Col xs={12} lg={6} className="text-lg-end text-center fontdesign">
             <p className="mb-0">
               Developed by <a href="https://www.qonotech.com" target="_blank" rel="noopener noreferrer" className="text-dark fw-bold text-decoration-none">@Qono Technologies</a>
-            </p>
+               </p>
           </Col>
         </Row>
       </Container>
