@@ -18,7 +18,7 @@ function OurProject() {
   return (
     <Row className="row-gap-3 px-md-5">
       {projects.map((project, index) => (
-        <Col key={index} xs={12} sm={6} lg={4} >
+        <Col key={index} xs={12}   lg={4} >
           <Card 
             className={`border-0 ${hoverIndex === index ? 'shadow-lg' : 'shadow-sm'} transition`}
             onMouseEnter={() => setHoverIndex(index)}
