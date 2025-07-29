@@ -25,9 +25,9 @@ function Whygangai() {
                 <li>  4 Decades of experience, 10,000 Happy Customers  </li>
                 <li> 	Skilled Operators with Professional Experience  </li>
                 <li> 	10 + cities in & around Kongu Belt Covered  </li>
+                <li> 	Borewell drilling for Home, Industries, Agriculture.  </li>
+                <li> 	Earth pit drilling up for 10 feet for electrical systems.</li>
                 <li> 	High power robotic sensor modernized borewell drilling rigs  </li>
-                <li> 	Borewell drilling for Home, Apartments, Industries, Agriculture.  </li>
-                <li> 	Earth pit drilling up for 10 feet for electrical earthing systems.</li>
               </ul>
             </p>
 
