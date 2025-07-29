@@ -77,7 +77,7 @@ const Footer = () => {
               Kullampalayam, <br />
               Gobichettipalayam, Tamil Nadu. 638476. <br /><br />
               9842867128 <br />
-              <a href="gangaihighpowerborewells@gmail.com" className="text-white text-decoration-underline">
+              <a href="" className="text-white text-decoration-underline">
                 gangaihighpowerborewells@gmail.com
               </a>
             </Col>
