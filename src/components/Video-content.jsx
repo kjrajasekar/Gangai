@@ -60,7 +60,7 @@ function Video() {
                     </Card.Text>
                     <Button
                       className="readmorebtn border-0 mx-auto mx-md-0 d-block mt-2 animate__animated animate__pulse animate__infinite"
-                      onClick={() => handleRedirect()}
+                      // onClick={() => handleRedirect()}
                     >
                       Read more
                     </Button>
