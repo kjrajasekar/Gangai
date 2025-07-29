@@ -50,11 +50,11 @@ const Review = () => {
                   <Card.Body className=" "> {/* Center content of Card */}
                     {/* Display the reviewer's image */}
                     <Row>
-                      <Col sm={12} xl={4} >  <div className="mb-3">
+                      <Col sm={12} xl={5} >  <div className="mb-3">
                         <Image src={review.image} className='rounded-circle' width={120} height={120} />
                       </div>
                       </Col>
-                      <Col sm={12} xl={8}>  <Card.Title>{review.name}</Card.Title>
+                      <Col sm={12} xl={7}>  <Card.Title>{review.name}</Card.Title>
                         <Card.Text>{review.text}</Card.Text>
                         {/* Display the rating stars */}
                         <StarRating rating={review.rating} />

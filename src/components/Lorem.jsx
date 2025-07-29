@@ -31,7 +31,7 @@ function Lorem() {
                   rel="noopener noreferrer"
                 >
                   <div className="row  ">
-                    <div className=" col-3 col-lg-1  px-lg-4 text-end">
+                    <div className=" col-3 col-lg-2  px-lg-4 text-end">
                       <Image
                         src={base5}
                         width={45}

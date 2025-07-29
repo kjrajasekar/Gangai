@@ -203,8 +203,8 @@ padding: 10px;
   padding-top: 10px;
 }
 .aboutheaddesign1{
- line-height: 48px;
-  font-size: 40px;
+ line-height: 40px;
+  font-size: 30px;
   text-align: center; 
   font-weight: 720;
 }
@@ -285,7 +285,7 @@ border: none;
 
 }
 .tabdesign{
-  width: 40%;
+  width: 50%;
   justify-content: center;
   align-self: center;
 }

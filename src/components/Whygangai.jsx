@@ -16,7 +16,7 @@ function Whygangai() {
           <div className="p-md-5">
             <div className='fontdesign smallheading text-center text-lg-start'>        </div>
             <div className="aboutheaddesign1 pb-2 text-center text-lg-start mt-3 mt-lg-0">
-              Why Gangai Borewells ?
+              Why Gangai Borewells?
             </div>
             <p className="fontdesign mt-3 ">
               We provide the highest standards of service to unlock water resource and transform barren fields into fertile fields. Besides water borewell digging service, we also execute customised drilling works as per customer requirement, road crossing projects and others depending on the surface.
