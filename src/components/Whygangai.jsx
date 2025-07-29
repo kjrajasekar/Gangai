@@ -15,7 +15,7 @@ function Whygangai() {
         >
           <div className="p-md-5">
             <div className='fontdesign smallheading text-center text-lg-start'>        </div>
-            <div className="aboutheaddesign1 pb-2 text-center text-lg-start">
+            <div className="aboutheaddesign1 pb-2 text-center text-lg-start mt-3 mt-lg-0">
               Why Gangai Borewells ?
             </div>
             <p className="fontdesign mt-3 ">
