@@ -9,7 +9,7 @@ function Section4bg() {
       <Container>
         <Row>
           <Col>
-          <div className='text-center headingcss fontdesign pt-5 pb-4'>
+          <div className='text-center aboutheaddesign1 pt-5 pb-4'>
           Our Recent Work</div>
             <div className="sec-4-heading">
               <div className="section-detail">

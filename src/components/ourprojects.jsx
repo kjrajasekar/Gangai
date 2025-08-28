@@ -19,8 +19,8 @@ function OurProject() {
     <Row className="row-gap-3 px-md-5">
       {projects.map((project, index) => (
         <Col key={index} xs={12}   lg={4} >
-          <Card 
-            className={`border-0 ${hoverIndex === index ? 'shadow-lg' : 'shadow-sm'} transition`}
+          <Card  
+            className={`border-0 ${hoverIndex === index ? 'shadow-lg' : 'shadow-sm'} transition h-100`}
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(null)}
             style={{ transition: 'box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out', transform: hoverIndex === index ? 'scale(1.05)' : 'scale(1)' }}

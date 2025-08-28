@@ -38,16 +38,16 @@ const Review = () => {
   };
 
   return (
-    <div className="p-3 myreview">
-      <Container>
-        <h2 className="text-center my-4 fontdesign headingcss p-3">Customer Reviews</h2>
+    <div className="p-5 myreview">
+      <Container fluid='xl' >
+        <h2 className="text-center my-4 aboutheaddesign1 p-3">Customer Reviews</h2>
         <div className="fontdesign">
           <Row className="justify-content-center">
             {/* Loop over the reviews and display them */}
             {allReviews.slice(0, reviewsToShow).map((review) => (
               <Col md={4} key={review.id} className="mb-4">
-                <Card className='border-0'>
-                  <Card.Body className=" "> {/* Center content of Card */}
+                <Card className='border-0 h-100'>
+                  <Card.Body className="p-0  " > {/* Center content of Card */}
                     {/* Display the reviewer's image */}
                     <Row>
                       <Col sm={12} xl={5} >  <div className="mb-3">
@@ -55,7 +55,7 @@ const Review = () => {
                       </div>
                       </Col>
                       <Col sm={12} xl={7}>  <Card.Title>{review.name}</Card.Title>
-                        <Card.Text>{review.text}</Card.Text>
+                        <Card.Text className='text-center text-lg-start fw-light'>{review.text}</Card.Text>
                         {/* Display the rating stars */}
                         <StarRating rating={review.rating} />
                       </Col>

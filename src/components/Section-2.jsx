@@ -20,7 +20,7 @@ function Section2bg() {
                     </Container>
 
                 </div>
-                <div className="pgwhite1 margtop" id="project">
+                <div className="pgwhite1 " id="project">
                     <Ourheading />
                     <Ourproject />
                 </div>

@@ -13,7 +13,7 @@ html {
 .section1bg{
   position: relative;
   width: 100%;
-  height: 640px;
+  /* height: 640px; */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -78,36 +78,42 @@ html {
 }
 
 .fontdesign{
- 
-  text-align: justify; 
- 
-}
+   text-align: justify; 
+ }
 .fontdesign1{
- 
-  text-align: center;
+   text-align: center;
 }
 .headingcss{
   font-weight: 900 !important;
   font-size: 35px;
 }
 .section2bg{
-  background-color: hsl(153.4deg 38.34% 50.39%);
+background-color: hsl(153.4deg 38.34% 50.39%);
 padding: 10px;
+}
+.banner-title{
+ font-weight: 900;
+ font-size: 60px;
+ line-height:1;
+}
+.banner-round{
+    height: 320px;
+      width: 320px;
+      border: 12px solid white;
+    z-index: 5;
 }
 .pgwhite{
   background-color: hsl(0deg 0% 94.9%);
   padding: 20px 0px;
 }
 .aboutheaddesign{
- 
-  font-size: 24px;
+   font-size: 24px;
   font-weight: bold;
   text-align: center;
 }
 .readmorebtn{
   background-color: hsl(0deg 0% 32.55%) !important;
- 
-  font-weight: 500 !important;
+   font-weight: 500 !important;
 }
 .smallheading{
   font-weight: 500;
@@ -123,7 +129,6 @@ padding: 10px;
 .out1{
   background-color: hsl(87.38deg 97.99% 39.02%);
   min-height: 400px;
-
 }
 .wth-100{
   width: 100%;
@@ -214,8 +219,10 @@ padding: 10px;
   font-weight: 720;
 }
 .posabs{
-  position: absolute;
-  top: 490px;
+  position: relative;
+  top: -50px;
+  z-index: 2;
+  margin: 0 auto;
   width: calc(1320px - 1.5rem);
 }
 .margtop{
@@ -481,7 +488,7 @@ ul.list-unstyled li a:hover {
   .section-details{
  border : none}
   .posabs{
-    width: calc(720px - 1.5rem);
+    width: calc(100% - 1.5rem);
   }
   .margtop{
     margin-top: 790px;
@@ -492,6 +499,10 @@ ul.list-unstyled li a:hover {
     text-align: left;
     font-weight: 700;
   }
+  .banner-title{
+ font-size: 45px;
+ line-height:1;
+}
   .aboutbutton{
     text-align: center;
     margin: 10px;
@@ -513,6 +524,7 @@ ul.list-unstyled li a:hover {
   color: rgb(73, 72, 72);
 }
 }
+
 @media only screen and (width: 992px) {
  .posabs{
   width: 94.35%;
@@ -529,14 +541,17 @@ ul.list-unstyled li a:hover {
   .margtop{
    margin-top: 750px;
  }
- 
+
  }
 
 @media (max-width: 767px) and (min-width: 320px) {
   .custome-navbar {
     padding: 10px 15px;
   }
-
+.banner-round{
+    min-height: 265px;
+    min-width:  265px;
+  }
   .navbar-brand img {
     width: 80px; /* Adjust logo size */
     height: auto;
@@ -563,10 +578,10 @@ ul.list-unstyled li a:hover {
     padding: 10px;
     border-radius: 10px;
   }
-  .posabs{
+  /* .posabs{
     position: inherit;
     width: auto;
-  }
+  } */
   .margtop{
     margin-top: 0px;
   }
@@ -590,7 +605,7 @@ ul.list-unstyled li a:hover {
 
   }
   .section1bg{
-    height: 180px;
+    min-height: 180px;
     margin-top: 100px;
   }
 }
@@ -637,7 +652,7 @@ button {
   font-size: 1.5rem;  /* Adjust the size of the stars */
 }
 .nav1-size{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 /* For the sticky navbar, change the text color to black on hover */
@@ -691,6 +706,6 @@ button {
  
 }
 .city{
-  font-size:30px;
+  font-size:22px;
   margin-bottom: 15px;
 }

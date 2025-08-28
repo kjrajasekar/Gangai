@@ -24,7 +24,7 @@ function Video() {
           className="animate__animated animate__fadeInLeft text-center text-md-start"
         >
           <Container>
-            <div className="headingcss fontdesign pb-4">Success Story</div>
+            <div className="aboutheaddesign1 pb-4 text-start">Success Story</div>
             <p className="fontdesign">
              In partnership with the Rotary Club, we resolved water scarcity for elementary school children by providing access to clean, safe water. This impactful initiative improved student health, supported hygiene, and empowered children to attend school regularly—laying a stronger foundation for the well-being of future generations through sustainable water solutions.
 
