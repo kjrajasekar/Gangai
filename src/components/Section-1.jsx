@@ -1,7 +1,7 @@
 
 import NavHeader from './Navbar';
-import Image from 'react-bootstrap/Image';
-import base2 from '../image/banner.png'
+// import Image from 'react-bootstrap/Image';
+// import base2 from '../image/banner.png'
 import HeroSection from './Hero';
 
 
