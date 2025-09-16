@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
-   font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px; /* Set this to your sticky nav height */
+  scroll-padding-top: 80px;
+  /* Set this to your sticky nav height */
 }
-.section1bg{
+
+.section1bg {
   position: relative;
   width: 100%;
   /* height: 640px; */
@@ -24,13 +26,15 @@ html {
   position: relative;
   width: 30vw;
   height: 30vw;
-  margin:  0 auto;
+  margin: 0 auto;
   background: hsl(0, 0%, 100%);
   border-radius: 100%;
 }
+
 .spinner-ring {
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   border-left: 6px solid hsl(153.4deg 38.34% 50.39%);
@@ -41,10 +45,12 @@ html {
   animation: rotation 0.9s infinite linear;
   z-index: 0;
 }
+
 @-webkit-keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(359deg);
   }
@@ -54,6 +60,7 @@ html {
   from {
     -moz-transform: rotate(0deg);
   }
+
   to {
     -moz-transform: rotate(359deg);
   }
@@ -63,6 +70,7 @@ html {
   from {
     -o-transform: rotate(0deg);
   }
+
   to {
     -o-transform: rotate(359deg);
   }
@@ -72,201 +80,247 @@ html {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(359deg);
   }
 }
 
-.fontdesign{
-   text-align: justify; 
- }
-.fontdesign1{
-   text-align: center;
+.fontdesign {
+  text-align: justify;
 }
-.headingcss{
+
+.fontdesign1 {
+  text-align: center;
+}
+
+.headingcss {
   font-weight: 900 !important;
   font-size: 35px;
 }
-.section2bg{
-background-color: hsl(153.4deg 38.34% 50.39%);
-padding: 10px;
+
+.section2bg {
+  background-color: hsl(153.4deg 38.34% 50.39%);
+  padding: 10px;
 }
-.banner-title{
- font-weight: 900;
- font-size: 60px;
- line-height:1;
+
+.banner-title {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 1;
 }
-.banner-round{
-    height: 320px;
-      width: 320px;
-      border: 12px solid white;
-    z-index: 5;
+
+.banner-round {
+  height: 400px;
+  width: 400px;
+  border: 20px solid white;
+  z-index: 5;
 }
-.pgwhite{
+
+.pgwhite {
   background-color: hsl(0deg 0% 94.9%);
   padding: 20px 0px;
 }
-.aboutheaddesign{
-   font-size: 24px;
+
+.aboutheaddesign {
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
 }
-.readmorebtn{
+
+.readmorebtn {
   background-color: hsl(0deg 0% 32.55%) !important;
-   font-weight: 500 !important;
+  font-weight: 500 !important;
 }
-.smallheading{
+
+.smallheading {
   font-weight: 500;
   font-size: 25px;
 }
-.aboutbutton{
+
+.aboutbutton {
   padding-top: 20px;
 }
-.pgwhite1{
+
+.pgwhite1 {
   background-color: hsl(0deg 0% 97.65%);
   padding: 20px;
 }
-.out1{
+
+.out1 {
   background-color: hsl(87.38deg 97.99% 39.02%);
   min-height: 400px;
 }
-.wth-100{
+
+.wth-100 {
   width: 100%;
 }
-.out2{
+
+.out2 {
   background-color: hsl(86.73deg 48.79% 59.41%);
   min-height: 400px;
- }
-.out3{
+}
+
+.out3 {
   background-color: hsl(186.95deg 95.35% 33.73%);
   min-height: 400px;
 }
+
 .no-padding-right {
   padding-right: 0 !important;
 }
+
 .no-padding-left {
   padding-left: 0 !important;
 }
-.centre{
+
+.centre {
   padding-left: 40px;
   padding-top: 40px;
 }
-.lorem{
+
+.lorem {
   background-color: #fff;
   padding: 20px;
- align-self: center;
+  align-self: center;
 }
-.video{
+
+.video {
   background-color: #fff;
   padding: 20px;
 }
-.section4bg{
-  background-color:hsl(0deg 0% 94.51%);
+
+.section4bg {
+  background-color: hsl(0deg 0% 94.51%);
   padding: 10px;
   border: none;
 }
-.sec-4-heading{
+
+.sec-4-heading {
   text-align: center;
 }
-.button-sec4{
+
+.button-sec4 {
   text-align: center;
 }
-.section-details{
- border-right: 2px solid grey;
+
+.section-details {
+  border-right: 2px solid grey;
   margin: 0 auto;
 }
-.section-details p{
-   font-size: 18px;
+
+.section-details p {
+  font-size: 18px;
 }
-.section-details h1{
- font-size: 26px;
- font-weight: 900 !important;
+
+.section-details h1 {
+  font-size: 26px;
+  font-weight: 900 !important;
 }
-.tab{
+
+.tab {
   padding: 20px;
 }
-.section3bg{
+
+.section3bg {
   background-color: hsl(153.4deg 38.34% 50.39%);
   padding-top: 20px;
 }
-.tabbutton{
+
+.tabbutton {
   text-align: center;
   padding-top: 30px;
 }
-.Section5bg{
+
+.Section5bg {
   background-color: hsl(87.84deg 98.71% 69.61%);
   width: 100%;
 }
-.section6bg{
+
+.section6bg {
   background-color: hsl(153.4deg 38.34% 50.39%);
   width: 100%;
   text-align: center;
   padding: 50px;
 }
-.section7bg{
+
+.section7bg {
   background-color: #fff;
   width: 100%;
   text-align: center;
   padding: 20px;
 }
-.sec6link{
+
+.sec6link {
   padding-top: 10px;
 }
-.aboutheaddesign1{
- line-height: 40px;
+
+.aboutheaddesign1 {
+  line-height: 40px;
   font-size: 30px;
-  text-align: center; 
+  text-align: center;
   font-weight: 720;
 }
-.posabs{
+
+.posabs {
   position: relative;
   top: -50px;
   z-index: 2;
   margin: 0 auto;
   width: calc(1320px - 1.5rem);
 }
-.margtop{
+
+.margtop {
   margin-top: 600px;
 }
+
 .tab .nav-tabs {
   /* border-radius: 20px;  */
   border: none;
-  
+
 }
 
-.sec-4-heading .whatspp{
+.sec-4-heading .whatspp {
   width: 85%;
-  font-size: 30px ;
+  font-size: 30px;
   margin: 0 auto;
 }
-.sec-4-heading .whatspp{
+
+.sec-4-heading .whatspp {
   font-size: 20px;
 }
-.ft-design{
+
+.ft-design {
   font-size: 16px !important;
   font-weight: 500;
-  
+
 }
-.fontdesign ul li{
-line-height: 35px;
-text-align: left !important;
+
+.fontdesign ul li {
+  line-height: 35px;
+  text-align: left !important;
 }
+
 .tab .nav-item .nav-link {
-  border-radius: 30px; 
-  color: #000; 
- margin: 0 10px;
-font-size: 25px;
+  border-radius: 30px;
+  color: #000;
+  margin: 0 10px;
+  font-size: 25px;
 }
+
 .tab .nav-item .nav-link.active {
-  background-color: hsl(105.94deg 59.26% 42.35%); 
-  color: white; 
+  background-color: hsl(105.94deg 59.26% 42.35%);
+  color: white;
   font-weight: 600;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
-border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  /* Shadow effect */
+  border: none;
 }
+
 .tab .nav-item .nav-link:hover {
   border-color: transparent
 }
+
 .custom-toggle {
   border-color: white !important;
 }
@@ -275,28 +329,33 @@ border: none;
   filter: invert(1);
 }
 
-.sec5-logo{
+.sec5-logo {
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.fw-bolder{
+
+.fw-bolder {
   font-size: 24px;
 }
+
 .card-shadow {
-  border-radius: 12px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 4px 16px rgba(0, 0, 0, 0.15); 
-  transition: box-shadow 0.3s ease, transform 0.3s ease; 
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 4px 16px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
+
 .card-shadow:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 6px 24px rgba(0, 0, 0, 0.2); 
-  transform: translateY(-5px); 
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 6px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  /* Shadow effect */
 
 }
-.tabdesign{
+
+.tabdesign {
   width: 50%;
   justify-content: center;
   align-self: center;
@@ -334,17 +393,19 @@ border: none;
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-.readmore{
+.readmore {
   font-weight: 600 !important;
 }
-.marhead{
-  margin:50px 0px;
+
+.marhead {
+  margin: 50px 0px;
 }
 
 /* About.css */
@@ -353,6 +414,7 @@ border: none;
     opacity: 0;
     transform: translateX(-50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -364,6 +426,7 @@ border: none;
     opacity: 0;
     transform: translateX(50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -375,6 +438,7 @@ border: none;
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -406,21 +470,24 @@ border: none;
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-.faq .fontdesign{
+.faq .fontdesign {
   font-size: 25px;
 }
-.faq span{
+
+.faq span {
   font-size: 22px;
   font-weight: bolder;
   text-align: left;
 }
-.faq p{
+
+.faq p {
   font-size: 18px;
   font-weight: lighter;
   color: rgb(73, 72, 72);
@@ -432,7 +499,8 @@ footer {
 
 /* Add spacing between list items */
 ul.list-unstyled li {
-  margin-bottom: 10px; /* Adjust spacing between li items */
+  margin-bottom: 10px;
+  /* Adjust spacing between li items */
 }
 
 /* Hover effect on links */
@@ -441,8 +509,10 @@ ul.list-unstyled li a {
 }
 
 ul.list-unstyled li a:hover {
-  color: #ffcc00; /* Change text color */
-  text-decoration: underline; /* Underline on hover */
+  color: #ffcc00;
+  /* Change text color */
+  text-decoration: underline;
+  /* Underline on hover */
 }
 
 /* Image hover effect */
@@ -453,10 +523,12 @@ ul.list-unstyled li a:hover {
 .text-center img:hover {
   transform: scale(1.1);
 }
+
 @keyframes rotateAnimation {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -465,95 +537,114 @@ ul.list-unstyled li a:hover {
 .rotate-img {
   animation: rotateAnimation 4s linear infinite;
 }
+
 @media (max-width: 1400px) {
-  .posabs{
+  .posabs {
     width: calc(1140px - 1.5rem);
   }
-  .margtop{
+
+  .margtop {
     margin-top: 650px;
   }
-  .fontdesign ul li{
+
+  .fontdesign ul li {
     font-size: 15px;
   }
 }
+
 @media (max-width: 1200px) {
-  .posabs{
+  .posabs {
     width: calc(960px - 1.5rem);
   }
-  .margtop{
+
+  .margtop {
     margin-top: 900px;
   }
 }
+
 @media (max-width: 993px) {
-  .section-details{
- border : none}
-  .posabs{
+  .section-details {
+    border: none
+  }
+
+  .posabs {
     width: calc(100% - 1.5rem);
   }
-  .margtop{
+
+  .margtop {
     margin-top: 790px;
   }
+
   .aboutheaddesign1 {
-  
+
     font-size: 28px;
     text-align: left;
     font-weight: 700;
   }
-  .banner-title{
- font-size: 45px;
- line-height:1;
-}
-  .aboutbutton{
+
+  .banner-title {
+    font-size: 45px;
+    line-height: 1;
+  }
+
+  .aboutbutton {
     text-align: center;
     margin: 10px;
   }
 
 
-  .ft-m{
+  .ft-m {
     font-size: 28px;
   }
 
-  .faq span{
-  font-size: 18px;
-  font-weight: bolder;
-  text-align: left;
-}
-.faq p{
-  font-size: 16px;
-  font-weight: lighter;
-  color: rgb(73, 72, 72);
-}
+  .faq span {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+  }
+
+  .faq p {
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(73, 72, 72);
+  }
 }
 
 @media only screen and (width: 992px) {
- .posabs{
-  width: 94.35%;
- }
- .margtop{
-  margin-top: 750px;
-}
-
-}
-@media only screen and (width: 767px) {
-  .posabs{
-   width: 50.35%;
+  .posabs {
+    width: 94.35%;
   }
-  .margtop{
-   margin-top: 750px;
- }
 
- }
+  .margtop {
+    margin-top: 750px;
+  }
+
+}
+
+@media only screen and (width: 767px) {
+  .posabs {
+    width: 50.35%;
+  }
+
+  .margtop {
+    margin-top: 750px;
+  }
+
+}
 
 @media (max-width: 767px) and (min-width: 320px) {
   .custome-navbar {
     padding: 10px 15px;
   }
-.banner-round{
+
+  .banner-round {
     min-height: 265px;
-    min-width:  265px;
+    min-width: 265px;
   }
+
   .navbar-brand img {
-    width: 80px; /* Adjust logo size */
+    width: 80px;
+    /* Adjust logo size */
     height: auto;
   }
 
@@ -566,49 +657,59 @@ ul.list-unstyled li a:hover {
   }
 
   .navbar-nav {
-    text-align: center; /* Center align nav items */
+    text-align: center;
+    /* Center align nav items */
   }
 
   .navbar-nav .nav-link {
-    font-size: 14px; /* Reduce font size */
+    font-size: 14px;
+    /* Reduce font size */
   }
 
   .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.8); /* Dark background for better visibility */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Dark background for better visibility */
     padding: 10px;
     border-radius: 10px;
   }
+
   /* .posabs{
     position: inherit;
     width: auto;
   } */
-  .margtop{
+  .margtop {
     margin-top: 0px;
   }
-  .aboutheaddesign1{
+
+  .aboutheaddesign1 {
     text-align: center;
     font-size: 26px;
     line-height: 35px;
   }
 
-  .fontdesign{
+  .fontdesign {
     text-align: center;
   }
+
   .no-padding-right {
     padding-right: inherit !important;
   }
+
   .no-padding-left {
     padding-left: inherit !important;
   }
-  .smallheading{
+
+  .smallheading {
     font-size: 18px;
 
   }
-  .section1bg{
+
+  .section1bg {
     min-height: 180px;
     margin-top: 100px;
   }
 }
+
 /* Normal state for the WhatsApp icon */
 .whatsapp-icon {
   transition: transform 0.3s ease, filter 0.3s ease;
@@ -616,9 +717,12 @@ ul.list-unstyled li a:hover {
 
 /* Hover effect */
 .whatsapp-icon:hover {
-  transform: scale(1.2); /* This makes the icon grow */
-  filter: brightness(1.3); /* Optional: increases the brightness when hovered */
+  transform: scale(1.2);
+  /* This makes the icon grow */
+  filter: brightness(1.3);
+  /* Optional: increases the brightness when hovered */
 }
+
 /* ReviewCard styling */
 .card {
   border: 1px solid #ddd;
@@ -640,6 +744,7 @@ button {
   padding: 10px 20px;
   font-size: 16px;
 }
+
 .text-warning {
   color: gold;
 }
@@ -649,36 +754,51 @@ button {
 }
 
 .star-rating {
-  font-size: 1.5rem;  /* Adjust the size of the stars */
+  font-size: 1.5rem;
+  /* Adjust the size of the stars */
 }
-.nav1-size{
+
+.nav1-size {
   font-size: 18px;
   font-weight: 500;
 }
+
 /* For the sticky navbar, change the text color to black on hover */
 /* Default color for navbar items */
 .sticky-navbar .nav-link {
-  color: white !important; /* Ensures text is white by default */
-  position: relative; /* Needed for positioning the underline */
-  transition: color 0.3s ease; /* Smooth transition for text color */
+  color: white !important;
+  /* Ensures text is white by default */
+  position: relative;
+  /* Needed for positioning the underline */
+  transition: color 0.3s ease;
+  /* Smooth transition for text color */
 }
 
 /* When  hovering over the navbar items, add white underline */
 .sticky-navbar .nav-link:hover {
-  color: hsl(0, 0%, 100%) !important; /* Text color remains white on hover */
+  color: hsl(0, 0%, 100%) !important;
+  /* Text color remains white on hover */
 }
 
 .sticky-navbar .nav-link:hover::after {
-  content: ''; /* Create the pseudo-element */
-  position: absolute; /* Position it absolutely to the bottom */
-  bottom: -10px; /* Position it at the bottom of the link */
+  content: '';
+  /* Create the pseudo-element */
+  position: absolute;
+  /* Position it absolutely to the bottom */
+  bottom: -10px;
+  /* Position it at the bottom of the link */
   left: 0;
-  width: 100%; /* Make the underline span the width of the text */
-  height: 2px; /* Define the height of the underline */
-  background-color: white; /* White underline */
-  transition: background-color 0.3s ease; /* Smooth transition for underline color */
+  width: 100%;
+  /* Make the underline span the width of the text */
+  height: 2px;
+  /* Define the height of the underline */
+  background-color: white;
+  /* White underline */
+  transition: background-color 0.3s ease;
+  /* Smooth transition for underline color */
 }
-.corner-wrapper{
+
+.corner-wrapper {
   display: block;
   overflow: hidden;
   width: 300px;
@@ -687,25 +807,65 @@ button {
   transform: translateZ(0px);
   border: 3px solid #eee;
 }
+
 .card-style {
   transition: transform 0.3s ease;
 }
+
 .card-style:hover {
   transform: scale(1.03);
 }
 
-.about2{
+.about2 {
   background-color: hsl(0deg 0% 94.51%);
- 
+
   /* width: calc(1320px - 1.5rem) */
 }
-.foot2{
+
+.foot2 {
   background-color: hsl(153.4deg 38.34% 50.39%);
   color: #d1d1d1;
   border: none;
- 
+
 }
-.city{
-  font-size:22px;
+
+.city {
+  font-size: 22px;
   margin-bottom: 15px;
+}
+
+.banner-round {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.truck-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .banner-round {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-round {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner-round {
+    width: 200px;
+    height: 200px;
+  }
 }

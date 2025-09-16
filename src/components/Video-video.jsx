@@ -3,10 +3,9 @@ function Videoyou() {
   return (
     <div 
       className="ratio corner-wrapper" 
-     
     >
       <iframe 
-        src= {video2}
+       src={`${video2}?autoplay=0`} 
         title="YouTube video" 
         allowFullScreen 
       

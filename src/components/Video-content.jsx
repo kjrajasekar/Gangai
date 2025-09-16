@@ -79,7 +79,7 @@ function Video() {
           style={{ height: "55vh" }}
         >
           <iframe
-            src={video2}
+            src={`${video2}?autoplay=0`} 
             title="YouTube video"
             allowFullScreen
             className="w-100 h-100"
