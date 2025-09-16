@@ -71,12 +71,8 @@ const HeroSection = () => {
 
     </div>
   </div>
-</section>
+  
 
-  );
-};
-
-export default HeroSection;
 {/* Combined Wave */}
 {/* <div
   style={{
@@ -108,3 +104,10 @@ export default HeroSection;
 </div> */}
 
 
+
+</section>
+
+  );
+};
+
+export default HeroSection;
