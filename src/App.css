@@ -550,6 +550,10 @@ ul.list-unstyled li a:hover {
   .fontdesign ul li {
     font-size: 15px;
   }
+    .banner-title {
+    font-size: 55px;
+    line-height: 1;
+  }
 }
 
 @media (max-width: 1200px) {
