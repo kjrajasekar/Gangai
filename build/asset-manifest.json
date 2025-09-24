@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.77cda4c3.css",
-    "main.js": "/static/js/main.84cf9872.js",
+    "main.css": "/static/css/main.f4839fe2.css",
+    "main.js": "/static/js/main.e5144f66.js",
     "static/media/video.mp4": "/static/media/video.9f0147fe3bc64dd8b0aa.mp4",
     "static/media/drill_side.jpg": "/static/media/drill_side.83c1c3675967f6571738.jpg",
+    "static/media/gangai_bore.jpg": "/static/media/gangai_bore.b9d955b5b51678d7e16d.jpg",
     "static/media/drill_project.jpg": "/static/media/drill_project.dda1ea6fd3afe1a86a76.jpg",
-    "static/media/banner.png": "/static/media/banner.53b7ab3c38a278d63b93.png",
+    "static/media/tirpur.jpg": "/static/media/tirpur.5c4065109b9d0131398d.jpg",
     "static/media/tirupur.png": "/static/media/tirupur.1852463ecab997f1c43d.png",
     "static/media/aboutus_banner.png": "/static/media/aboutus_banner.972f18336a27c626a3ef.png",
     "static/media/coimbatore.png": "/static/media/coimbatore.e5318ec042c541da3371.png",
     "static/media/erode.png": "/static/media/erode.be283360cfb41e3d9ba8.png",
+    "static/media/gangai_banner.jpg": "/static/media/gangai_banner.6a065b1fcf51ff1fce84.jpg",
+    "static/media/erode.jpg": "/static/media/erode.6f9b9662f90f17d4c758.jpg",
     "static/media/whatsapp.png": "/static/media/whatsapp.c339ff504121f060e736.png",
+    "static/media/cbe.jpg": "/static/media/cbe.2a87f5322690987248d0.jpg",
     "static/media/Group 130.png": "/static/media/Group 130.8bc13e2910eaa1b83bc1.png",
     "static/media/eve.svg": "/static/media/eve.9da3579a48f724508882411e2a59b6b1.svg",
     "static/media/op.svg": "/static/media/op.5b8cb0818d66a38a968c9645c731d312.svg",
     "index.html": "/index.html",
-    "main.77cda4c3.css.map": "/static/css/main.77cda4c3.css.map",
-    "main.84cf9872.js.map": "/static/js/main.84cf9872.js.map"
+    "main.f4839fe2.css.map": "/static/css/main.f4839fe2.css.map",
+    "main.e5144f66.js.map": "/static/js/main.e5144f66.js.map"
   },
   "entrypoints": [
-    "static/css/main.77cda4c3.css",
-    "static/js/main.84cf9872.js"
+    "static/css/main.f4839fe2.css",
+    "static/js/main.e5144f66.js"
   ]
 }
